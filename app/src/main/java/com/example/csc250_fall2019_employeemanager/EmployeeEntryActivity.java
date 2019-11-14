@@ -43,6 +43,13 @@ public class EmployeeEntryActivity extends AppCompatActivity
             //allow the create button to also update the current employee object
             //note that you only have getters for your private employee fields
             //currently.  You may need to change that :)
+            this.fnameET =  String fname;
+            this.lnameET = String lname;
+            this.weightET = double weight;
+            this.ageET = int age;
+            this.height_feetET = int height_feet;
+            this.height_inchesET = int height_inches;
+            this.theEmployee = new Employee(fname, lname, height_feet, height_inches, age, weight);
         }
 
 
